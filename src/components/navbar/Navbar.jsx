@@ -5,9 +5,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
 
   const test = () => {
-    setOpenMenu(() => {
-      return <></>
-    })
+    return ""
   }
 
   return (
