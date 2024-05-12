@@ -4,6 +4,12 @@ import "./navbar.scss"
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
 
+  const test = () => {
+    setOpenMenu(() => {
+      return <></>
+    })
+  }
+
   return (
     <nav>
       <div className="left">
@@ -11,6 +17,7 @@ const Navbar = () => {
           <img src="/logo.png" alt="" />
           <span>Estate</span>
         </a>
+
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Contact</a>
